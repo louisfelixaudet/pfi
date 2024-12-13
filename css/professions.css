@@ -67,7 +67,7 @@ a:hover {
 
 body {
     background-color: #03071e;
-    cursor: url("/image/R.png"), auto;
+    cursor: url("image/R.png"), auto;
     min-width: 600px;
 }
 

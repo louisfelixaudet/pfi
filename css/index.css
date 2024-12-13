@@ -58,7 +58,7 @@ main {
     grid-area: main;
     margin: 1%;
     background-image:
-        url(/image/pngtree-golden-section-fibonacci-number-ideal-png-image_6067438.png);
+        url(image/pngtree-golden-section-fibonacci-number-ideal-png-image_6067438.png);
         border-width: 1em;
         border-image: linear-gradient(45deg, rgb(22, 2, 9), rgb(238, 66, 13)) 1;
         max-height: 1090px;
@@ -193,7 +193,7 @@ li {
   }
 
   body{
-    cursor: url("/image/R.png") , auto;
+    cursor: url("image/R.png") , auto;
   }
 
 

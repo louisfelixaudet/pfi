@@ -80,7 +80,7 @@ a:hover {
 
 body {
     background-color: #03071e;
-    cursor: url("/image/R.png"), auto;
+    cursor: url("image/R.png"), auto;
     min-width: 1136px;
 }
 
@@ -104,7 +104,7 @@ h1{
 }
 
 h1 {  
-    background: url(/image/OIP.jpg) no-repeat;
+    background: url(image/OIP.jpg) no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     background-size:contain;

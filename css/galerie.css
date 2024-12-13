@@ -25,7 +25,7 @@ nav {
 }
 
 #c1 {
-    background: url(/image/IMG_4095.jpg) no-repeat;
+    background: url(image/IMG_4095.jpg) no-repeat;
     width: 40vw;
     grid-area: c1;
     margin: 1em;
@@ -33,7 +33,7 @@ nav {
 }
 
 #c2 {
-    background: url(/image/OIP.jpg) no-repeat;
+    background: url(image/OIP.jpg) no-repeat;
     grid-area: c2;
     margin: 1em;
     background-position: 10%;
@@ -88,11 +88,11 @@ a:hover {
 
 body {
     background-color: #03071e;
-    cursor: url("/image/R.png"), auto;
+    cursor: url("image/R.png"), auto;
 }
 
 main {
-    background: url(/image/basket.jpg) no-repeat;
+    background: url(image/basket.jpg) no-repeat;
    background-size: cover;
     grid-area: main;
     margin: 1%;
@@ -131,7 +131,7 @@ h1{
     }
 
     #c1 {
-        background: url(/image/IMG_4095.jpg) no-repeat;
+        background: url(image/IMG_4095.jpg) no-repeat;
         width: 42vw;
         grid-area: c1;
     
