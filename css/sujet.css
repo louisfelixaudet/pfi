@@ -104,7 +104,7 @@ h1{
 }
 
 h1 {  
-    background: url("image/OIP.jpg") no-repeat;
+    background: url("/image/OIP.jpg") no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     background-size:contain;

@@ -116,7 +116,7 @@ a {
         body {
             min-width: 820px;
             background-color: #03071e;
-            cursor: url("/image/R.png"), auto;
+            cursor: url("image/R.png"), auto;
             display: grid;
             grid-template-rows: 13em (3, 10em) ;
             grid-template-columns: 2(25%);
@@ -153,7 +153,7 @@ a {
         body {
             min-width: 390px;
             background-color: #03071e;
-            cursor: url("/image/R.png"), auto;
+            cursor: url("image/R.png"), auto;
             display: grid;
             grid-template-rows: 13em (3, 10em) ;
             grid-template-columns: 2(25%);
