@@ -96,6 +96,10 @@ footer {
     color: #ffffff;
 }
 
+li > a {
+    color: #ffba08;
+}
+
 .space{
     display: inline-block;
     text-decoration: none;
