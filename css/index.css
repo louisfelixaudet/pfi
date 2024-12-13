@@ -168,8 +168,9 @@ body {
     min-width: 860px;
 }
 
-li {
+span {
     font-size: xx-large;
+    font-weight:500;
 }
 
 .dropdown {
