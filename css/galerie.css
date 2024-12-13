@@ -25,7 +25,6 @@ nav {
 }
 
 #c1 {
-    background: url("image/IMG_4095.jpg") no-repeat;
     width: 40vw;
     grid-area: c1;
     margin: 1em;
@@ -33,7 +32,6 @@ nav {
 }
 
 #c2 {
-    background: url("image/OIP.jpg") no-repeat;
     grid-area: c2;
     margin: 1em;
     background-position: 10%;
@@ -92,7 +90,6 @@ body {
 }
 
 main {
-    background: url("image/basket.jpg") no-repeat;
     background-size: cover;
     grid-area: main;
     margin: 1%;
@@ -107,6 +104,10 @@ h1 {
     color: #ffba08;
     font-size: 7em;
     padding-left: 2em;
+}
+
+#raptor{
+    width: 100%;
 }
 
 @media screen and (width < 900px) {
@@ -131,8 +132,7 @@ h1 {
     }
 
     #c1 {
-        background: url("image/IMG_4095.jpg") no-repeat;
-        width: 42vw;
+        width: 40vw;
         grid-area: c1;
 
     }

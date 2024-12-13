@@ -100,9 +100,9 @@ main {
 }
 
 header{
-    background: url("image/css-tutorial-img1-01.webp");
+    /*background: url("image/css-tutorial-img1-01.webp");
     background-size:cover;
-    background-position: 0%;
+    background-position: 0%;*/
     margin-left: 1em;
     width: 97vw;
 }
