@@ -25,7 +25,7 @@ nav {
 }
 
 #c1 {
-    background-image:url("image/IMG_4095.jpg") no-repeat;
+    background: url("image/IMG_4095.jpg") no-repeat;
     width: 40vw;
     grid-area: c1;
     margin: 1em;
@@ -33,7 +33,7 @@ nav {
 }
 
 #c2 {
-    background-image:url("image/OIP.jpg") no-repeat;
+    background: url("image/OIP.jpg") no-repeat;
     grid-area: c2;
     margin: 1em;
     background-position: 10%;
@@ -92,17 +92,17 @@ body {
 }
 
 main {
-    background-image:url("image/basket.jpg") no-repeat;
-   background-size: cover;
+    background: url("image/basket.jpg") no-repeat;
+    background-size: cover;
     grid-area: main;
     margin: 1%;
 }
 
-header{
+header {
     margin-bottom: 1%;
 }
 
-h1{
+h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffba08;
     font-size: 7em;
@@ -134,6 +134,6 @@ h1{
         background: url("image/IMG_4095.jpg") no-repeat;
         width: 42vw;
         grid-area: c1;
-    
+
     }
 }
