@@ -1,0 +1,176 @@
+body{
+    box-sizing: border-box;
+    margin: 0%;
+}
+#conteneur {
+    display: grid;
+    grid-template-rows: 7em repeat(11, 10em) 7em;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-areas:
+        "nav nav nav nav"
+        "header header header header"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "footer footer footer footer"
+        "footer footer footer footer";
+
+}
+
+nav {
+    background-color: #ffba08;
+    grid-area: nav;
+    margin: 1em;
+}
+
+#c1 {
+    background-color: #ffba08;
+    grid-area: c1;
+    margin: 1em;
+    padding-left: 0%;
+}
+
+#c2 {
+    background-color: #ffba08;
+    grid-area: c2;
+    margin: 1em;
+}
+
+
+footer {
+    background-color: #ffba08;
+    grid-area: footer;
+    margin: 1%;
+}
+
+#choosebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #dc2f02;
+    height: 100%;
+}
+
+
+.i {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    width: 100%;
+    height: 100%;
+}
+
+.i:hover {
+    background-color: #03071e;
+    color: white;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #6a040f;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 3.5em;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #03071e;
+}
+
+body {
+    background-color: #03071e;
+    cursor: url("/image/R.png"), auto;
+    min-width: 924px;
+}
+
+main {
+    display: grid;
+    background-color: #ffba08;
+    grid-area: main;
+    margin: 1%;
+}
+
+header{
+    background-image: url(/image/css-tutorial-img1-01.webp);
+    background-size:cover;
+    background-position: 0%;
+    margin-left: 1em;
+    width: 97vw;
+}
+
+#nvbalise{
+    display: flex;
+    flex-direction: column;
+}
+
+.ranger{
+    padding: 1em;
+    border: 1px solid black;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#move:hover{
+    
+    animation: ani 2s forwards;
+    transition: 4s;
+}
+
+
+
+@keyframes ani {
+    
+    100%{
+      translate: 500px;
+    }
+    0%{
+        translate: -500;
+    }
+}
+
+
+.balise{
+    text-align:left;
+    font-size:x-large;
+    color: #6a040f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+
+#recto{
+    width: 300px;
+    padding-left: 4em;
+}
+
+#face{
+    width: 250px;
+    padding-right: 4em;
+    
+}
+
+
+@media screen and (width < 924px) {
+    @keyframes ani {
+    
+        100%{
+          translate: 100px;
+        }
+    }
+
+    #move:hover{
+    
+        animation: ani 2s forwards;
+        transition: 4s;
+    }
+}
